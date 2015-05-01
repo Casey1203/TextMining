@@ -59,4 +59,6 @@ if __name__ == "__main__":
 
 	#train_and_evaluate(clf_3, X_train, X_test, y_train, y_test)
 
-	print clf_3.named_steps['vect'].get_feature_names()
+	#print clf_3.named_steps['vect'].get_feature_names()
+	print news.target_names[:10]
+	#print news.target[:10]
